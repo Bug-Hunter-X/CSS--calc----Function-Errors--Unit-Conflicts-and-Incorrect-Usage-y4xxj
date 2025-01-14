@@ -1,0 +1,11 @@
+/* Corrected CSS */
+#container {
+  width: 500px; /* Explicit width for predictable results */
+}
+
+.element {
+  width: calc(100% - 20px); /* Correct spacing around the '-' operator */
+  background-color: lightblue;
+  padding: 10px;
+}
+/*The solution demonstrates how to use calc() correctly*/
